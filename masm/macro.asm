@@ -1,7 +1,7 @@
 data segment
 msg1 db "Gautham$"
 msg2 db 0ah,0dh,24h
-msg3 db "20323049$"
+msg3 db "1234$"
 data ends
 code segment
 assume cs:code,ds:data
